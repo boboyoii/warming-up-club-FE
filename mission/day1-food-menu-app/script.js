@@ -11,7 +11,7 @@ async function main() {
       <img src="${item.image}" alt="${item.name}">
       <div class="menu-info">
         <div class="menu-name">${item.name}</div>
-        <div class="menu-price">\\ ${item.price.toLocaleString()}</div>
+        <div class="menu-price">₩ ${item.price.toLocaleString()}</div>
         <div class="menu-describe">${item.description}</div>
       </div>
     `;
